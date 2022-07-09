@@ -1,0 +1,135 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bar {
+  align-items: center;
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: space-between;
+  background-color: rgb(187, 86, 86);
+}
+
+.bar-nav {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+
+.bar-nav-element {
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+
+
+h1 {
+  font-weight: normal;
+}
+
+/* Header end*/
+
+.dino-photo {
+  align-items: center;
+  background-image: url('https://wallpaperaccess.com/full/1884823.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  margin-top: 20px;
+}
+
+/* First section */
+
+.info-content {
+  color: white;
+}
+
+.life {
+  font-size: 40px;
+}
+
+
+
+.button {
+  background-color: lightseagreen;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+  width: 250px;
+}
+
+/* First section End */
+
+/* Second section */
+
+.three {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+  border: solid 2px;
+  width: 25%;
+}
+
+.flex-box {
+  display: flex;
+}
+
+
+.carnivores {
+  margin: 25px;
+}
+
+
+h4 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+/* Second section end */
+
+/* Footer section */
+footer {
+  background-color: rgb(187, 86, 86);
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 2% 0 2%;
+  font-size: 16px;
+  line-height: 2;
+}
+
+
+
+.footer-area {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  vertical-align: top;
+
+}
+
+/* Footer section end */
